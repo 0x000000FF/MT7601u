@@ -305,7 +305,7 @@ CROSS_COMPILE = /opt/montavista/pro/devkit/arm/v5t_le_mvl5/bin/arm_v5t_le-
 endif
 
 ifeq ($(PLATFORM),EDISON)
-LINUX_SRC = /media/yocto/edison/edison-yocto/poky/linux-kernel
+LINUX_SRC = /media/yocto/edison/edison-yocto/build_edison/tmp/work/edison-poky-linux/linux-externalsrc/1.0-r2/linux-externalsrc-1.0
 CROSS_COMPILE = 
 endif
 
